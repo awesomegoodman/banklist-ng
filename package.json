@@ -1,0 +1,50 @@
+{
+  "name": "banklist-ng",
+  "version": "0.0.1",
+  "description": "Retrieve the names of all banks in Nigeria",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir dist",
+    "postinstall": "",
+    "preinstall": "",
+    "create-project": "npm list --depth 0 --json || (npm init -y && node -e \"const fs = require('fs'); const packageJson = require('./package.json'); packageJson.type = 'module'; fs.writeFileSync('./package.json', JSON.stringify(packageJson, null, 2));\")"
+  },
+  "keywords": [
+    "Nigeria Banks",
+    "Nigerian Bank List",
+    "Bank Names Nigeria",
+    "Bank Details Nigeria",
+    "Nigeria Banking System",
+    "Nigerian Financial Institutions",
+    "Nigeria Bank API",
+    "Bank Data Retrieval Nigeria",
+    "Bank Information Nigeria",
+    "Nigeria Bank Data",
+    "Banking Services Nigeria",
+    "Nigeria Bank API Integration",
+    "Bank List",
+    "All Banks in Nigeria",
+    "Bank Names",
+    "Nigeria"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awesomegoodman/banklist-ng.git"
+  },
+  "author": "Awesome Goodman",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "jest": "^29.6.1"
+  },
+  "initConfig": {
+    "name": "my-bank-app",
+    "version": "1.0.0",
+    "description": "My bank app using BankList-NG",
+    "license": "MIT"
+  }
+}
