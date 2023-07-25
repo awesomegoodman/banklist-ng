@@ -1,6 +1,6 @@
 {
   "name": "banklist-ng",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Retrieve the names of all banks in Nigeria",
   "main": "src/index.js",
   "type": "module",
