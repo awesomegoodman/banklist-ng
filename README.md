@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![NPM](https://img.shields.io/npm/v/banklist-ng.svg)](https://www.npmjs.com/package/banklist-ng)
-[![PyPI](https://badge.fury.io/py/banklist-ng.svg)](https://pypi.org/project/banklist-ng)
+[![PyPI](https://badge.fury.io/py/banklist-ng.svg)](https://pypi.org/project/banklist_ng)
 
 The `banklist-ng` project provides information about Nigerian banks including the bank's type, NIP code, name, slug, CBN code, USSD, and logo. It consists of several components, including resources, npm package, and PyPI package.
 
